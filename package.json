@@ -7,10 +7,12 @@
     "pt": "yarn run prod:tailwind"
   },
   "devDependencies": {
-    "autoprefixer": "^10.2.4",
     "live-server": "^1.2.1",
-    "postcss": "^8.2.6",
-    "tailwindcss": "^2.0.3",
     "tailwindcss-cli": "^0.1.2"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.7",
+    "tailwindcss": "^2.0.3"
   }
 }

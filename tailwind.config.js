@@ -1,8 +1,18 @@
+const colors = require("tailwindcss/colors");
 module.exports = {
   purge: ["./src/**/*.html"],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    fontFamily: {
+      body: "DM Sans",
+      display: "Raleway",
+    },
+    extend: {
+      colors: {
+        primary: "#F3F3F3",
+        Gray: "#606060",
+      },
+    },
   },
   variants: {},
   plugins: [],
