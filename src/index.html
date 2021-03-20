@@ -6,11 +6,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>fuadnafiz98</title>
+  <link rel="shortcut icon" type="image/jpg" href="./assets/favicon/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
   <link rel="stylesheet" href="./css/index.css">
 </head>
 
 <body class="bg-primary">
   <div class="">
+    <div id="offline-toast" class="hidden w-full h-8 bg-yellow-300">
+      <p class="font-medium text-center text-black align-middle font-display">Looks like you are offline!</p>
+    </div>
     <!-- header -->
     <div class="flex justify-between px-24 py-12">
       <div class="text-xl font-black font-display">
@@ -18,10 +25,12 @@
         <h3>NAFIZ</h3>
       </div>
       <div class="flex items-end mr-6 space-x-6 font-body">
-        <div>
-          <a href=" #" class="text-base font-medium text-gray-700 hover:text-indigo-900 hover:font-bold">
+        <div class="flex flex-col group">
+          <a href=" #" class="text-base font-medium text-gray-700 hover:text-indigo-700 hover:font-bold">
             HOME
           </a>
+          <div class="w-full h-1 transition transform scale-x-0 bg-gray-800 rounded-sm group-hover:scale-x-100">
+          </div>
         </div>
         <div>
           <a href=" #" class="text-base font-medium text-gray-700 hover:text-indigo-900 hover:font-bold">
@@ -42,6 +51,9 @@
           <a href=" #" class="text-base font-medium text-gray-700 hover:text-indigo-900 hover:font-bold">
             CONTACT
           </a>
+        </div>
+        <div class="hidden" id="connection-icon" class="mb-8">
+          <img class="w-6 h-6 " src="./assets/svg/offline.svg" alt="offline svg">
         </div>
       </div>
     </div>
