@@ -4,8 +4,8 @@
   let usingSW = "serviceWorker" in navigator;
   let swRegistration;
   let sw;
-  document.addEventListener("DOMContentLoaded", render, false);
-  initServiceWorker().catch(console.error);
+  // document.addEventListener("DOMContentLoaded", render, false);
+  // initServiceWorker().catch(console.error);
 
   //======= ALL FUNCTIONS ========
   function render() {
