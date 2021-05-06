@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>fuadnafiz98</title>
-  <link rel="shortcut icon" type="image/jpg" href="../assets/favicon/favicon.ico">
-  <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png">
-  <link rel="stylesheet" href="../css/index.css">
+  <link rel="shortcut icon" type="image/jpg" href="/assets/favicon/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+  <link rel="stylesheet" href="/css/index.css">
 </head>
 
 <body class="bg-primary">
@@ -26,7 +26,7 @@
     </div>
     <div class="flex items-end mr-6 space-x-6 font-body">
       <div class="flex flex-col group">
-        <a href="./pages/home.html" class="text-base font-medium text-gray-700 hover:text-indigo-700 hover:font-bold">
+        <a href="/" class="text-base font-medium text-gray-700 hover:text-indigo-700 hover:font-bold">
           HOME
         </a>
         <div class="w-full h-1 transition transform scale-x-0 bg-indigo-800 rounded-sm group-hover:scale-x-100">
@@ -34,7 +34,7 @@
       </div>
 
       <div class="flex flex-col group">
-        <a href=" #" class="text-base font-medium text-gray-700 hover:text-indigo-700 hover:font-bold">
+        <a href="#" class="text-base font-medium text-gray-700 hover:text-indigo-700 hover:font-bold">
           PROJECTS
         </a>
         <div class="w-full h-1 transition transform scale-x-0 bg-indigo-800 rounded-sm group-hover:scale-x-100">
@@ -42,7 +42,7 @@
       </div>
 
       <div class="flex flex-col group">
-        <a href=" #" class="text-base font-medium text-gray-700 hover:text-indigo-700 hover:font-bold">
+        <a href="/pages/resume.html" class="text-base font-medium text-gray-700 hover:text-indigo-700 hover:font-bold">
           RESUME
         </a>
         <div class="w-full h-1 transition transform scale-x-0 bg-indigo-800 rounded-sm group-hover:scale-x-100">
@@ -50,7 +50,7 @@
       </div>
 
       <div class="flex flex-col group">
-        <a href=" #" class="text-base font-medium text-gray-700 hover:text-indigo-700 hover:font-bold">
+        <a href="#" class="text-base font-medium text-gray-700 hover:text-indigo-700 hover:font-bold">
           BLOG
         </a>
         <div class="w-full h-1 transition transform scale-x-0 bg-indigo-800 rounded-sm group-hover:scale-x-100">
@@ -58,14 +58,14 @@
       </div>
 
       <div class="flex flex-col group">
-        <a href=" #" class="text-base font-medium text-gray-700 hover:text-indigo-700 hover:font-bold">
+        <a href="/pages/contact.html" class="text-base font-medium text-gray-700 hover:text-indigo-700 hover:font-bold">
           CONTACT
         </a>
         <div class="w-full h-1 transition transform scale-x-0 bg-indigo-800 rounded-sm group-hover:scale-x-100">
         </div>
       </div>
       <div class="hidden" id="connection-icon" class="mb-8">
-        <img class="w-6 h-6 " src="../assets/svg/offline.svg" alt="offline svg">
+        <img class="w-6 h-6 " src="/assets/svg/offline.svg" alt="offline svg">
       </div>
     </div>
   </div>
@@ -85,11 +85,107 @@
       </div>
     </div>
     <!-- projects -->
-    <div>
+    <div class="flex flex-col space-y-12">
       <!-- project -->
-      <div>
-
+      <div class="flex flex-col-reverse justify-around lg:flex-row font-body">
+        <div class="flex flex-col justify-between w-full mt-5 space-y-4 lg:mt-0 lg:w-1/2 lg:space-y-0">
+          <div>
+            <h1 class="text-3xl font-bold uppercase font-display">01/ banglafire office management</h1>
+            <p class="mt-2 text-base font-normal leading-relaxed text-gray-800">
+              This project is the intern project at
+              <a class="text-yellow-500" href="http://banglafire.com/">Banglafire.</a>
+              This project is about managing employee attendence system and employee leave and multiple leave policy
+              management.
+              Office admins can edit and update leave policies.
+              Office employee's attendence is taken based on their connectiviy in the office wifi.
+            </p>
+          </div>
+          <div class="space-y-4 text-xl">
+            <div class="flex justify-between">
+              <h2 class="pr-12">Teah Stack Used</h2>
+              <h2><strong>Vue.js, Laravel, MySQL, Python</strong></h2>
+            </div>
+            <div class="text-gray-600 hover:text-yellow-500 hover:font-bold">
+              <a href="https://github.com/banglafire-intern/office-management">More Details from this project</a>
+            </div>
+          </div>
+        </div>
+        <div class="w-full h-64 bg-gray-200 lg:w-1/3"></div>
       </div>
+
+
+      <div class="flex flex-col-reverse justify-around lg:flex-row font-body">
+        <div class="flex flex-col justify-between w-full mt-5 space-y-4 lg:mt-0 lg:w-1/2 lg:space-y-0">
+          <div>
+            <h1 class="text-3xl font-bold uppercase font-display">02/ Expatriate Escort</h1>
+            <p class="mt-2 text-base font-normal leading-relaxed text-gray-800">
+              This is a community platfrom for people going abroad from bangladesh. From this application,
+              people can seek help from various bangladeshi communities around the globe. Users who are students can
+              search
+              for university informations and users who are looking for jobs also can search for jobs and apply from
+              this website.
+            </p>
+          </div>
+          <div class="space-y-4 text-xl">
+            <div class="flex justify-between">
+              <h2 class="pr-12">Teah Stack Used</h2>
+              <h2><strong>Vue.js, Laravel, MySQL, Node.js</strong></h2>
+            </div>
+            <div class="text-gray-600 hover:text-yellow-500 hover:font-bold">
+              <a href="https://github.com/ExpatriateEscort/ExpatriateEscort-V2.0">More Details from this project</a>
+            </div>
+          </div>
+        </div>
+        <div class="w-full h-64 bg-gray-200 lg:w-1/3"></div>
+      </div>
+
+      <div class="flex flex-col-reverse justify-around lg:flex-row font-body">
+        <div class="flex flex-col justify-between w-full mt-5 space-y-4 lg:mt-0 lg:w-1/2 lg:space-y-0">
+          <div>
+            <h1 class="text-3xl font-bold uppercase font-display">03/ Craft Online</h1>
+            <p class="mt-2 text-base font-normal leading-relaxed text-gray-800">
+              This is a online ecommerce website build for local craftsmans. From this website users can upload their
+              homemade
+              crafts as well other users can search and buy those products.
+            </p>
+          </div>
+          <div class="space-y-4 text-xl">
+            <div class="flex justify-between">
+              <h2 class="pr-12">Teah Stack Used</h2>
+              <h2><strong>HTML, CSS, Javascript, Firebase, Firebase authentication</strong></h2>
+            </div>
+            <div class="text-gray-600 hover:text-yellow-500 hover:font-bold">
+              <a href="https://fuadnafiz98.github.io/craft-online">More Details from this project</a>
+            </div>
+          </div>
+        </div>
+        <div class="w-full h-64 bg-gray-200 lg:w-1/3"></div>
+      </div>
+
+
+      <div class="flex flex-col-reverse justify-around lg:flex-row font-body">
+        <div class="flex flex-col justify-between w-full mt-5 space-y-4 lg:mt-0 lg:w-1/2 lg:space-y-0">
+          <div>
+            <h1 class="text-3xl font-bold uppercase font-display">04/ Bus Router</h1>
+            <p class="mt-2 text-base font-normal leading-relaxed text-gray-800">
+              This is a console application written in C Language. This application helps to find the possible routes
+              from
+              one place to another place inside Dhaka city.
+            </p>
+          </div>
+          <div class="space-y-4 text-xl">
+            <div class="flex justify-between">
+              <h2 class="pr-12">Teah Stack Used</h2>
+              <h2><strong>C, GCC</strong></h2>
+            </div>
+            <div class="text-gray-600 hover:text-yellow-500 hover:font-bold">
+              <a href="https://github.com/fuadnafiz98/bus-router">More Details from this project</a>
+            </div>
+          </div>
+        </div>
+        <div class="w-full h-64 bg-gray-200 lg:w-1/3"></div>
+      </div>
+
     </div>
   </div>
 </body>

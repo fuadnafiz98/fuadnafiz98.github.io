@@ -1,10 +1,8 @@
 {
   "scripts": {
     "dev": "live-server ./src",
-    "build:tailwind": "tailwindcss-cli build ./src/css/tailwind.css -o ./src/css/index.css",
-    "prod:tailwind": "NODE_ENV=production tailwindcss-cli build ./src/css/tailwind.css -o ./src/css/index.css",
-    "bt": "yarn run build:tailwind",
-    "pt": "yarn run prod:tailwind"
+    "tw:build": "tailwindcss-cli build ./src/css/tailwind.css -o ./src/css/index.css",
+    "tw:prod": "NODE_ENV=production tailwindcss-cli build ./src/css/tailwind.css -o ./src/css/index.css"
   },
   "devDependencies": {
     "live-server": "^1.2.1",
