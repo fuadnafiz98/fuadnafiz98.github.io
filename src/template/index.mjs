@@ -11,7 +11,8 @@ const data = {
 
 async function generate() {
   const result = await ejs.renderFile(
-    path.resolve(".", "index.ejs"),
+    // path.resolve(".", "index.ejs"),
+    path.resolve(".", "src/pages/about.ejs"),
     data,
     options
   );

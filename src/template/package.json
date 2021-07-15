@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "dev": "nodemon -e ejs,css,ejs,html,js,mjs --watch src/index.mjs --watch src/pages src/index.mjs",
+    "watch": "live-server src/public/index.html"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1",
+    "nodemon": "^2.0.12"
+  }
+}
